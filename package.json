@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "homepage": "https://felipecaos1.github.io/portafolio/",
+  "homepage": "http://felipecaos1.github.io/portafolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
