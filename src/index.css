@@ -1,0 +1,295 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #0b0c0c!important;
+}
+a{
+  text-decoration: none!important;
+}
+.foto-principal{
+  box-shadow: 0px 0px 30px 0px rgb(255 255 255 / 17%);
+}
+
+.iam h1:first-child{
+  font-size: 4rem;
+  
+}
+.color-p{
+  color: #6e6e6e;
+}
+.iam span{
+  color:#fdb56a;
+}
+.saira{
+  font-family:'Saira Condensed', sans-serif;
+}
+.encabezado h1{
+  color: #d2c1af;
+}
+.links a{
+  color: #d2c1af;
+}
+.links a:hover{
+  color: #ecc79f;
+}
+.color-titulos{
+  color: #d2c1af;
+}
+.color-titulos:hover{
+  color: #ecc79f;
+}
+.iam h1:last-child{
+  color: #f5f8ffc9;
+  font-family:'Arial Narrow', 'sans-serif';
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.descrip p{
+  color: #f5f8ffc9;
+  margin-top: 2rem;
+  padding-right: 3rem;
+}
+
+/** trajeta de trabajos recientes **/
+
+.baner, .baner-imagen{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
+  overflow: hidden;
+  color: white;
+}
+.baner img{
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.baner-content{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+.baner-link{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: all .4s cubic-bezier(.22,.61,.36,1);
+}
+.baner-content-inner{
+  position: relative;
+  overflow: hidden;
+}
+.baner-move{
+  transform: translateY(90.7812px) translateZ(0px);
+  transition: all .4s cubic-bezier(.22,.61,.36,1);
+}
+.baner-move h1{
+  color: #ecc79f;
+}
+.baner-move h5{
+  color: #c3c6cc;
+  text-transform: uppercase;
+}
+.btn-finaly a span{
+  color: #ecc79f;
+}
+.text-holder{
+  opacity: 0;
+  transition: opacity .25s ease-out;
+}
+
+
+/* Time Line */
+
+/* #time-wraper{
+    overflow-y: scroll;
+    height: 50vh;
+    background-color: antiquewhite;
+} */
+
+.linea-tiempo {
+  position: relative;
+  width: 100%;
+  max-width: 95vw;
+  height: 100%;
+}
+
+.linea-tiempo::before {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background-color: rgb(70, 70, 70);
+  left: 50%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.momento {
+  position: relative;
+  width: 45%;
+  box-sizing: border-box;
+  border: solid 1px ;
+}
+.momento .header{
+      display: flex;
+      justify-content: space-between;
+      padding: 0 1.5em;
+      background-color: rgb(31, 31, 31);
+}
+.momento .header h3{
+    color: #fdb56a;
+    font-size: 20px;
+}
+.momento:nth-child(even) {
+  left: 55%;
+}
+.list-style{
+  list-style: none;
+  padding:0 1em;
+}
+.momento::after {
+  content: '';
+  position: absolute;
+  top: calc(50% + 10px);
+  right: calc(-11.11% - 11.5px);
+  height: 20px;
+  width: 20px;
+  background-color: #fdb56a;
+  border-radius: 50%;
+}
+
+.momento:nth-child(even)::after {
+  left: calc(-11.11% - 8.5px);
+}
+
+.momento h3 {
+  margin: 10px 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.momento .descripcion {
+  background-color: transparent;
+  color: rgb(97, 97, 97);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* border-radius: 10px; */
+  padding: 10px;
+  line-height: 22px;
+  font-size: 18px;
+}
+
+/* .momento:nth-child(even) .descripcion {
+background-color: #b40000;
+color: white;
+} */
+.momento .descripcion::after {
+  content: '';
+  position: absolute;
+  right: -12px;
+  top: calc(50% + 10px);
+  height: 0;
+  width: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 12px solid rgb(44, 44, 44);
+}
+
+
+.momento:nth-child(even) .descripcion::after{
+  left: -12px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 12px solid rgb(44, 44, 44);
+  border-left: none;
+}
+
+/* Estilos para la tarjeta de experiecia Laboral */
+.wraper-experiencia  {
+  position: relative;
+  box-sizing: border-box;
+  border: solid 1px ;
+}
+.wraper-experiencia .header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5em;
+  background-color: rgb(31, 31, 31);
+}
+.wraper-experiencia .header h3,
+.wraper-experiencia a{
+  color: #fdb56a;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.wraper-experiencia ul li {
+  color: #fff;
+  display: flex;
+  gap: 5px;
+}
+
+.wraper-experiencia .sub-title{
+   color: #d2c1af;
+}
+
+
+/* ESTILOS PARA LAS TARJETAS DE TRABAJOS EN LAS INTERNAS DE LAS EMPRESAS  */
+
+.card-wordpres .wraper-imagen img{
+  /* aspect-ratio: 3/2; */
+  object-fit: cover;
+}
+.card-wordpres h1{
+  color: #d2c1af;
+  font-size: 24px;
+}
+.card-wordpres p{
+  color: #6e6e6e;
+}
+
+.card-wordpres a{
+  color: #fdb56a;
+  
+}
+.flecha i::before{
+  transition: all .2s ease-out;
+  margin-top: 2px;
+}
+.flecha:hover i::before{
+  transform: rotate(-45deg);
+}
+
+/* ESTILOS PARA EL HEADER */
+
+.nav-bar{
+  background-color: #0b0c0c;
+}
+.nav-bar h1{
+  font-size: 2rem;
+}
+.nav-bar h2{
+  font-size: 1rem;
+}
+
+.nav-bar h1 span{
+    color:#fdb56a;
+  }
+
+.nav-bar .btn-con a{
+  border: solid 2px #fdb56a;
+  color: #fff;
+}
