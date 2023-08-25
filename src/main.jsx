@@ -7,7 +7,7 @@ import { PortfolioApp } from './PortfolioApp'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/portafolio'>
       <PortfolioApp/>
     </BrowserRouter>
   </React.StrictMode>
