@@ -6,6 +6,8 @@ import { TimeLine } from '../component/TimeLine'
 import ExperienciaGrid from '../component/ExperienciaGrid'
 import { Header } from '../layout/Header'
 
+import foto_perfil from '../../public/images/foto-perfil.png'
+
 export const HomePage = () => {
   return (
     <>
@@ -38,7 +40,7 @@ export const HomePage = () => {
                 </div>
                 <div className="col-md-6">
                     <div className="w-50 m-auto animate__animated animate__backInRight">
-                        <img className="foto-principal" width="100%" src='./public/images/foto-perfil.png' alt="Foto personal"/>
+                        <img className="foto-principal" width="100%" src={foto_perfil} alt="Foto personal"/>
                     </div>
                 </div>
             </div>
