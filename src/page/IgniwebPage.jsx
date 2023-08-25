@@ -23,7 +23,7 @@ export const IgniwebPage = () => {
                     <div className="col-md-6">
                         <div className="w-100 text-center m-auto animate__animated animate__backInRight">
                             <a href="https://igniweb.com/">
-                            <img className="" width="70%" src='/assets/images/Igniweb-logo-1.png' alt="Foto personal"/>
+                            <img className="" width="70%" src='/public/images/Igniweb-logo-1.png' alt="Foto personal"/>
                             </a>
                         </div>
                     </div>
