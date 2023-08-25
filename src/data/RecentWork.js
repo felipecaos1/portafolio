@@ -6,7 +6,7 @@ export const recentWorkList = [
         categorie:'trabajo',
         name:'Maqueta olx',
         description:'Este trabajo consistio en maquetar para olx una serie de componentes',
-        img:'/public/images/olx.png',
+        img:'/images/olx.png',
         external_url:'https://felipecaos1.github.io/OLX-components/'        
     },
     {
@@ -14,7 +14,7 @@ export const recentWorkList = [
         categorie:'trabajo',
         name:'Chevrolet',
         description:'Se desarrollo una calculadora de huella de carbono para la marca Chevrolet',
-        img:'/public/images/CO2.PNG',
+        img:'/images/CO2.PNG',
         external_url:'https://felipecaos1.github.io/CO2-chevrolet/'     
     },
     {
@@ -22,7 +22,7 @@ export const recentWorkList = [
         categorie:'PRACTICA',
         name:'Página de Producto',
         description:'Construí la interna de un producto, con algunas funcionalidades',
-        img:'/public/images/imagenp1.jpg',
+        img:'/images/imagenp1.jpg',
         external_url:'https://felipecaos1.github.io/Ecomerce-Product_Page/'     
     },
     {
@@ -30,7 +30,7 @@ export const recentWorkList = [
         categorie:'PRACTICA',
         name:'Página de Producto',
         description:'Construí la interna de un producto, con algunas funcionalidades',
-        img:'/public/images/imagenp1.jpg',
+        img:'/images/imagenp1.jpg',
         external_url:'https://felipecaos1.github.io/Ecomerce-Product_Page/'     
     }
 ]
