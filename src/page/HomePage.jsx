@@ -38,7 +38,7 @@ export const HomePage = () => {
                 </div>
                 <div className="col-md-6">
                     <div className="w-50 m-auto animate__animated animate__backInRight">
-                        <img className="foto-principal" width="100%" src='/assets/images/foto-perfil.png' alt="Foto personal"/>
+                        <img className="foto-principal" width="100%" src='./assets/images/foto-perfil.png' alt="Foto personal"/>
                     </div>
                 </div>
             </div>
