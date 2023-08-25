@@ -24,7 +24,7 @@ export const YolehagolawebPage = () => {
                     <div className="col-md-6">
                         <div className="w-100 m-auto animate__animated animate__backInRight">
                             <a href="https://yolehagolaweb.com/">
-                            <img className="" width="100%" src='/images/logo-ylw-completo-blanco-e1650988602668.webp' alt="Foto personal"/>
+                            <img className="" width="100%" src='./images/logo-ylw-completo-blanco-e1650988602668.webp' alt="Foto personal"/>
                             </a>
                         </div>
                     </div>
