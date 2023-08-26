@@ -12,7 +12,7 @@ export const HomePage = () => {
   return (
     <>
        {/* <Header/> */}
-        <div className="container"  >
+        <div className="container px-md-1 px-4"  >
             <div className="row align-items-center" style={{height:100+'vh'}}>
                 <div className="col-md-6">
                     <div className="iam">
@@ -39,32 +39,32 @@ export const HomePage = () => {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <div className="w-50 m-auto animate__animated animate__backInRight">
+                    <div className="img-fluid m-auto animate__animated animate__backInRight">
                         <img className="foto-principal" width="100%" src={foto_perfil} alt="Foto personal"/>
                     </div>
                 </div>
             </div>
         </div>
-        <div  className="container my-5">
+        <div  className="container my-5 px-md-1 px-4">
             <h3 className="saira text-center">HABILIDADES</h3>
         </div>
         <SkillsGridCard/>
-        <div  className="encabezado container my-5">
+        <div  className="encabezado container my-5 px-md-1 px-4">
             <h1 id="trabajos-recientes" className="saira text-center">DESARROLLOS DESTACADOS</h1>
         </div>
         <RecentWorkGrid/>
-        <div className="container mb-5">
-            <div className="row text-center border p-1 mb-5">
+        <div className="container mb-5 px-md-1 px-4">
+            <div className="row text-center border p-1 mb-5 mx-0">
                 <Link className='saira color-titulos ' to='/desarrollos'>
                     VER TODOS
                 </Link>
             </div>
         </div>
-        <div  className="encabezado container my-5">
+        <div  className="encabezado container my-5 px-md-1 px-4">
             <h1 className="saira text-center">EXPERIENCIA LABORAL</h1>
         </div>
         <ExperienciaGrid/>
-        <div  className="encabezado container my-5">
+        <div  className="encabezado container my-5 px-md-1 px-4">
             <h1 className="saira text-center">FORMACIÓN ACADÉMICA</h1>
         </div>
        <TimeLine/>

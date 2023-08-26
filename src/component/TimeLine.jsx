@@ -6,7 +6,7 @@ import { TimeLineItem } from "./TimeLineItem";
 export const TimeLine = () => {
   return (
     <>
-      <div className="container mb-5" id="time-wraper">
+      <div className="container mb-5 px-md-1 px-4" id="time-wraper">
         <div className="linea-tiempo">
           {
             estudiosList.map( item =>(

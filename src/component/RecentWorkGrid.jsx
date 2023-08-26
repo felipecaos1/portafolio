@@ -6,7 +6,7 @@ import RecentWorkCard from "./RecentWorkCard"
 
   return (
     <>
-        <div className="container">
+        <div className="container px-md-1 px-4">
             <div className="row g-3 mb-5">
                 {
                     recentWorkList.map( item => (

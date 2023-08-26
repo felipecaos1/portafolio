@@ -16,6 +16,14 @@ a{
   font-size: 4rem;
   
 }
+
+@media(max-width:767px){
+  .iam h1:first-child{
+    font-size: 3rem;
+    
+  }
+   
+}
 .color-p{
   color: #6e6e6e;
 }
@@ -246,6 +254,15 @@ color: white;
    color: #d2c1af;
 }
 
+@media(max-width:767px){
+  .momento .header{
+    display: block;
+    padding: 5px 0;
+}
+.list-style{
+  padding:0;
+}
+}
 
 /* ESTILOS PARA LAS TARJETAS DE TRABAJOS EN LAS INTERNAS DE LAS EMPRESAS  */
 
@@ -292,4 +309,23 @@ color: white;
 .nav-bar .btn-con a{
   border: solid 2px #fdb56a;
   color: #fff;
+}
+
+.icon-wha{
+  display: none;
+}
+
+@media(max-width:767px){
+  .nav-bar .btn-con{
+    display: none;
+  }
+  .icon-wha{
+    display: block;
+    color: #fdb56a;
+    font-size: 30px;
+    margin-top: -6px;
+  }
+  .movil-col{
+    justify-content: space-around;
+  }
 }

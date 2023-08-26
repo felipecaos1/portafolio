@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 const ExperienciaGrid = () => {
     return (
         <>
-        <div className='container'>
+        <div className='container px-md-1 px-4'>
             <div className='row'>
-                <div className="col-md-6">
+                <div className="col-md-6 mb-5">
                     <div className="wraper-experiencia">
                         <div className="header">
                             <h3>
@@ -38,7 +38,7 @@ const ExperienciaGrid = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 mb-5">
                     <div className="wraper-experiencia">
                         <div className="header">
                             <h3>

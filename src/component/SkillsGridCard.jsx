@@ -4,7 +4,7 @@ import { SkillsCard } from './SkillsCard'
 export const SkillsGridCard = () => {
   return (
     <>
-       <div className="container">
+       <div className="container px-md-1 px-4">
             <div className="row">
                 {
                     Listskills.map( item => (
