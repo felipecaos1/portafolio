@@ -15,7 +15,7 @@ const ExperienciaGrid = () => {
                             </h3>
                             <h3>2020-2022</h3>
                         </div>
-                        <div className="descripcion">
+                        <div className="descripcion px-3">
                             <h4 className='text-center my-3 sub-title'>Funciones desarrolladas</h4>
                             <ul className="list-style">
                                 <li><i class="bi bi-check2"></i> Maquetar sitios web en WordPres</li>
@@ -46,7 +46,7 @@ const ExperienciaGrid = () => {
                             </h3>
                             <h3>2022-Actualidad</h3>
                         </div>
-                        <div className="descripcion">
+                        <div className="descripcion px-3">
                             <h4 className='text-center my-3 sub-title'>Funciones desarrolladas</h4>
                             <ul className="list-style">
                                 <li><i class="bi bi-check2"></i> Liderar proyectos en WordPress</li>
