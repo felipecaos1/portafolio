@@ -191,7 +191,7 @@ a{
 }
 
 .momento .descripcion {
-  background-color: transparent;
+  background-color: #0b0c0c;
   color: rgb(97, 97, 97);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   /* border-radius: 10px; */
@@ -229,7 +229,7 @@ color: white;
   .momento {
     position: static;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .momento::after {
    display: none;
@@ -238,7 +238,7 @@ color: white;
     display: none;
   }
   .linea-tiempo::before {
-    display: none;
+    z-index: -1;
   }
 }
 
