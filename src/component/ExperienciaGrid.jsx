@@ -30,7 +30,7 @@ const ExperienciaGrid = () => {
                                 <li><i class="bi bi-check2"></i> Implementaciones de seguridad para WordPress</li>
                                 <li><i class="bi bi-check2"></i> Manejo de Cpanel</li>
                             </ul>
-                            <div className='text-center py-3'>
+                            <div className='text-center py-3 animate__animated animate__fadeInUp animate__delay-2s'>
                                 <Link className='saira color-titulos text-decoration-underline' to='/desarrollos-yolehagolaweb'>
                                     VER TRABAJOS REALIZADOS
                                 </Link>
@@ -67,7 +67,7 @@ const ExperienciaGrid = () => {
                                 <li><i class="bi bi-check2"></i> Implementación de Google Analytics y Google Search Console</li>
                                 <li><i class="bi bi-check2"></i> </li>
                             </ul>
-                            <div className='text-center py-3'>
+                            <div className='text-center py-3 animate__animated animate__fadeInUp animate__delay-2s'>
                                 <Link className='saira color-titulos text-decoration-underline' to='/desarrollos-igniweb'>
                                     VER TRABAJOS REALIZADOS
                                 </Link>

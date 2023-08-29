@@ -6,7 +6,7 @@ import { hover } from '../page/helpers/cardHover';
 const RecentWorkCard = ({categorie, name, description, img, external_url}) => {
   return (
     <>
-       <div className="col-md-4 ">
+       <div className="col-md-4 animate__animated animate__fadeInUp animate__delay-1s">
                 <div className="baner" onMouseOver={hover} onMouseOut={hover}>
                     <div className="baner-imagen">
                         <img width="100%" src={img} alt=""/>

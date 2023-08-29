@@ -225,6 +225,23 @@ color: white;
   border-left: none;
 }
 
+@media(max-width:767px){
+  .momento {
+    position: static;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .momento::after {
+   display: none;
+  }
+  .momento .descripcion::after {
+    display: none;
+  }
+  .linea-tiempo::before {
+    display: none;
+  }
+}
+
 /* Estilos para la tarjeta de experiecia Laboral */
 .wraper-experiencia  {
   position: relative;
