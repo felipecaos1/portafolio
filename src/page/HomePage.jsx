@@ -7,6 +7,7 @@ import ExperienciaGrid from '../component/ExperienciaGrid'
 import { Header } from '../layout/Header'
 
 import foto_perfil from '../../public/images/foto-perfil.png'
+import { Footer } from '../layout/Footer'
 
 export const HomePage = () => {
   return (
@@ -68,6 +69,8 @@ export const HomePage = () => {
             <h1 className="saira text-center">FORMACIÓN ACADÉMICA</h1>
         </div>
        <TimeLine/>
+
+       <Footer/>
     </>
   )
 }
