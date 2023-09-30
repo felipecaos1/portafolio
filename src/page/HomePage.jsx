@@ -21,8 +21,9 @@ export const HomePage = () => {
                         <h1>DESARROLLADOR WEB</h1>
                     </div>
                     <div className="descrip">
-                        <p>I'm a freelance photographer based in London who specializes in people and portrait photography. I love putting ideas into beautiful pictures, and I want to help you do the same. Are you searching for a photographer who is passionate, caring, and creative? I am that photographer!
+                        <p>Soy un ingeniero físcio que conoció y se apasionó por el desarrollo web, llevo más de 3 años aprendiendo y desarrollando proyectos en esta área. Me enfoco en el desarrollo frontend. Tengo experiencia contruyendo landing page e E-commerce en WordPress. También he particiado en la maquetación de proyectos en otras tecnologías.
                         </p>
+                        <p>Contactatame y conoce más a cerca de como puedo aportar valor y ayudarte a realizar a tus proyectos</p>
                     </div>
                     <div className="row mt-5 links">
                         <div className="col-auto">
