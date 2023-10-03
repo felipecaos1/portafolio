@@ -2,6 +2,14 @@
 
 export const recentWorkList = [
      {
+        id:6,
+        categorie:'Trabajo',
+        name:'ColombianMedicalCare',
+        description:'Página web de servicios estéticos y turismo en salud.',
+        img:'./images/colombiamedicalcare.PNG',
+        external_url:'https://colombianmedicalcare.com.co/'     
+    },
+    {
         id:5,
         categorie:'trabajo',
         name:'Igniweb',

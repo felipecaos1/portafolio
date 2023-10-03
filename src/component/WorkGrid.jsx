@@ -8,7 +8,7 @@ export const WorkGrid = ({data}) => {
                 <div className="row">
                     {
                         data.map( item =>(
-                            <WorkItem key={item.id} {...item}/>
+                            <WorkItem key={item.id+item.name[0]} {...item}/>
                         ))
                     }
                 </div>
