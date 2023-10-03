@@ -6,7 +6,7 @@ import { TimeLine } from '../component/TimeLine'
 import ExperienciaGrid from '../component/ExperienciaGrid'
 import { Header } from '../layout/Header'
 
-import foto_perfil from '../../public/images/profil-2.png'
+import foto_perfil from '../../public/images/sphere.gif'
 import { Footer } from '../layout/Footer'
 
 export const HomePage = () => {
@@ -42,7 +42,7 @@ export const HomePage = () => {
                 </div>
                 <div className="col-md-6">
                     <div className="img-fluid mx-5 animate__animated animate__backInRight">
-                        <img className="foto-principal" width="90%" src={foto_perfil} alt="Foto personal"/>
+                        <img className="foto-principal" width="100%" src={foto_perfil} alt="Foto personal"/>
                     </div>
                 </div>
             </div>
