@@ -3,7 +3,7 @@ export const yolehagolawebWorkList = [
         id:7,
         name:"Paco's Pet Shop",
         description:'E-commerce para emprendimiento de venta de camas para perros.',
-        img:'./images/paco.PNG',
+        img:'./images/paco.webp',
         external_url:'https://pacospetshop.com/'        
     },
     {
