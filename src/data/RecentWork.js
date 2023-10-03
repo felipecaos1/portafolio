@@ -1,6 +1,14 @@
 
 
 export const recentWorkList = [
+     {
+        id:5,
+        categorie:'trabajo',
+        name:'Igniweb',
+        description:'Fui el encargado de renovar el sitio web de la empresa en la que actualmente trabajo',
+        img:'./images/igni-2.PNG',
+        external_url:'https://igniweb.com/'        
+    },
     {
         id:1,
         categorie:'trabajo',
@@ -27,10 +35,10 @@ export const recentWorkList = [
     },
     {
         id:4,
-        categorie:'PRACTICA',
-        name:'Página de Producto',
-        description:'Construí la interna de un producto, con algunas funcionalidades',
-        img:'./images/imagenp1.jpg',
-        external_url:'https://felipecaos1.github.io/Ecomerce-Product_Page/'     
+        categorie:'trabajo',  
+        name:"Parque Caike",
+        description:"Sitio web desarrollado bajo los lineamientos del MINTIC, para Comfenalco Tolíma.",
+        img:"./images/caike-2.PNG",
+        external_url:"https://caike.com.co/"
     }
 ]

@@ -6,7 +6,7 @@ import { TimeLine } from '../component/TimeLine'
 import ExperienciaGrid from '../component/ExperienciaGrid'
 import { Header } from '../layout/Header'
 
-import foto_perfil from '../../public/images/foto-perfil.png'
+import foto_perfil from '../../public/images/profil-2.png'
 import { Footer } from '../layout/Footer'
 
 export const HomePage = () => {
@@ -23,7 +23,7 @@ export const HomePage = () => {
                     <div className="descrip">
                         <p>Soy un ingeniero físcio que conoció y se apasionó por el desarrollo web, llevo más de 3 años aprendiendo y desarrollando proyectos en esta área. Me enfoco en el desarrollo frontend. Tengo experiencia contruyendo landing page e E-commerce en WordPress. También he particiado en la maquetación de proyectos en otras tecnologías.
                         </p>
-                        <p>Contactatame y conoce más a cerca de como puedo aportar valor y ayudarte a realizar a tus proyectos</p>
+                        <p>Contáctatame y conoce más a cerca de como puedo aportar valor y ayudarte a realizar a tus proyectos</p>
                     </div>
                     <div className="row mt-5 links">
                         <div className="col-auto">
@@ -42,7 +42,7 @@ export const HomePage = () => {
                 </div>
                 <div className="col-md-6">
                     <div className="img-fluid mx-5 animate__animated animate__backInRight">
-                        <img className="foto-principal" width="100%" src={foto_perfil} alt="Foto personal"/>
+                        <img className="foto-principal" width="90%" src={foto_perfil} alt="Foto personal"/>
                     </div>
                 </div>
             </div>

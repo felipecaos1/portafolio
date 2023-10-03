@@ -52,7 +52,7 @@ const ExperienciaGrid = () => {
                                 <li><i class="bi bi-check2"></i> Liderar proyectos en WordPress</li>
                                 <li><i class="bi bi-check2"></i> Despliegue de WordPress en servidor</li>
                                 <li><i class="bi bi-check2"></i> Desarrollo de sitio gubernamentales</li>
-                                <li><i class="bi bi-check2"></i> Implmentación de lineamientos MINTIC</li>
+                                <li><i class="bi bi-check2"></i> Implementación de lineamientos MINTIC</li>
                                 <li><i class="bi bi-check2"></i> Instalación de SSL</li>
                                 <li><i class="bi bi-check2"></i> Implementación de funcionalidades avanzadas en WordPress</li>
                                 <li><i class="bi bi-check2"></i> Personalizaciones a través de Theme Child</li>
@@ -60,12 +60,12 @@ const ExperienciaGrid = () => {
                                 <li><i class="bi bi-check2"></i> Administración de E-commerce</li>
                                 <li><i class="bi bi-check2"></i> Maquetación de sitios web en WordPress a partir de un diseño</li>
                                 <li><i class="bi bi-check2"></i> Documentación de proyectos</li>
-                                <li><i class="bi bi-check2"></i> Implmentaciones de seguridad y SEO</li>
+                                <li><i class="bi bi-check2"></i> Implementaciones de seguridad y SEO</li>
                                 <li><i class="bi bi-check2"></i> Mantenimiento y optimización de sitio existentes</li>
                                 <li><i class="bi bi-check2"></i> Creación y restauración de copias de seguridad</li>
                                 <li><i class="bi bi-check2"></i> Manejo de Hooks de WordPress</li>
                                 <li><i class="bi bi-check2"></i> Implementación de Google Analytics y Google Search Console</li>
-                                <li><i class="bi bi-check2"></i> </li>
+                                <li><i class="bi bi-check2"></i> ...</li>
                             </ul>
                             <div className='text-center py-3 animate__animated animate__fadeInUp animate__delay-2s'>
                                 <Link className='saira color-titulos text-decoration-underline' to='/desarrollos-igniweb'>

@@ -96,6 +96,8 @@ a{
   height: 100%;
   display: block;
   transition: all .4s cubic-bezier(.22,.61,.36,1);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(0deg, rgba(2, 0, 36, 0.4682247899159664) 21%, rgba(9, 9, 121, 0) 63%);
 }
 .baner-content-inner{
   position: relative;
