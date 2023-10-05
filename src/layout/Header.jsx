@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const Header = () => {
     return (
         <>
-         <div className="container-fluid px-5 nav-bar py-4 sticky-top "> 
+         <div className="container-fluid px-md-5  px-1 nav-bar py-4 sticky-top "> 
             <div className="row justify-content-center align-items-center">
                 <div className="col-md-6">
                     <div className="d-flex align-items-center movil-col">

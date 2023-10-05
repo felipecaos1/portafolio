@@ -24,8 +24,8 @@ export const HomePage = () => {
             </div>
             <div className="descrip">
               <p>
-                Soy un ingeniero físcio que conoció y se apasionó por el
-                desarrollo web, llevo más de 3 años aprendiendo y desarrollando
+                Soy un ingeniero físico que conoció y se apasionó por el
+                desarrollo web. Llevo más de 3 años aprendiendo y desarrollando
                 proyectos en esta área. Me enfoco en el desarrollo frontend.
                 Tengo experiencia contruyendo landing page e E-commerce en
                 WordPress. También he particiado en la maquetación de proyectos
@@ -94,7 +94,6 @@ export const HomePage = () => {
         <h1 className="saira text-center">FORMACIÓN ACADÉMICA</h1>
       </div>
       <TimeLine />
-        <Link to='/prueba'>Ir</Link>
       <Footer />
     </>
   );

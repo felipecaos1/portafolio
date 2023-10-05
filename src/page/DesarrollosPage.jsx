@@ -17,7 +17,7 @@ export const DesarrollosPage = () => {
             DESARROLLOS DESTACADOS
           </h1>
           <p className="text-center color-p">
-            los trabajos acontinuación estan sujetos a cambios por parte de los
+            los trabajos a continuación están sujetos a cambios por parte de los
             clientes, asi como de su continuidad en internet.
           </p>
         </div>
