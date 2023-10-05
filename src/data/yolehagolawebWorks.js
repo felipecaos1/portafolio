@@ -40,12 +40,13 @@ export const yolehagolawebWorkList = [
         description:'Página web de servicios de tecnología para la agricultura',
         img:'./images/agroap.PNG',
         external_url:'https://agroap.com/'     
-    },
-    {
-        id:6,
-        name:'Constructora PHC',
-        description:'Pagina web tipo constructora, con presentación de proyectos inmobiliarios.',
-        img:'./images/phc.PNG',
-        external_url:'https://constructoraphc.com/'     
-    }
+    }   
+    // },
+    // {
+    //     id:6,
+    //     name:'Constructora PHC',
+    //     description:'Pagina web tipo constructora, con presentación de proyectos inmobiliarios.',
+    //     img:'./images/phc.PNG',
+    //     external_url:'https://constructoraphc.com/'     
+    // }
 ]

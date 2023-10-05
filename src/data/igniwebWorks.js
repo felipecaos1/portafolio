@@ -29,5 +29,22 @@ export const igniwebWorkList = [
         img:"./images/alken.PNG",
         external_url:"https://alken.com.co/"
 
+    },
+    {
+        id:5,
+        name:"PlazaBlack",
+        description:"Landing page de producto digital",
+        img:"./images/plaza.PNG",
+        external_url:"https://plazablack.com/"
+
+    },
+    {
+        id:6,
+        name:"Exocan Group",
+        description:"Landing page de producto físico",
+        img:"./images/exo.PNG",
+        external_url:"https://exocangroup.com/"
+
     }
+
 ]
