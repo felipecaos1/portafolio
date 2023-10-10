@@ -3,6 +3,9 @@ body{
   background-color: #000000!important;
   scroll-padding-top: 50px;
 }
+.row{
+  margin: 0;
+}
 a{
   text-decoration: none!important;
 }
@@ -106,7 +109,7 @@ a{
   transform: translateY(90.7812px) translateZ(0px);
   transition: all .4s cubic-bezier(.22,.61,.36,1);
 }
-.baner-move h1{
+.baner-move h2 a{
   color: #ecc79f;
 }
 .baner-move h5{
